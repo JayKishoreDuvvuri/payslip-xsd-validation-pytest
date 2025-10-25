@@ -1,0 +1,9 @@
+<Payslips xmlns="http://www.tieke.fi/schema/payslipxml/2.0">
+  <Payslip>
+    <Version>2.0</Version>
+    <HeaderData>
+      <MessageId>12345</MessageId>
+      <PayDate>10/03/2025</PayDate> <!-- Wrong format -->
+    </HeaderData>
+  </Payslip>
+</Payslips>

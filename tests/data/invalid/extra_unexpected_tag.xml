@@ -1,0 +1,10 @@
+<Payslips xmlns="http://www.tieke.fi/schema/payslipxml/2.0">
+  <Payslip>
+    <Version>2.0</Version>
+    <HeaderData>
+      <MessageId>12345</MessageId>
+      <Timestamp>20250310T120000</Timestamp>
+      <ExtraElement>Oops</ExtraElement> <!-- Not defined in XSD -->
+    </HeaderData>
+  </Payslip>
+</Payslips>

@@ -1,0 +1,12 @@
+<Payslips xmlns="http://www.tieke.fi/schema/payslipxml/2.0">
+  <Payslip>
+    <Version>2.0</Version>
+    <HeaderData>
+      <MessageId>12345</MessageId>
+      <NetPayment>
+        <Value>2500.00</Value>
+        <Currency>EUROO</Currency> <!-- Invalid currency code -->
+      </NetPayment>
+    </HeaderData>
+  </Payslip>
+</Payslips>

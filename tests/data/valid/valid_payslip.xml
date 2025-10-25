@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Payslips xmlns="http://www.tieke.fi/schema/payslipxml/2.0">
+  <Payslip>
+    <Version>2.0</Version>
+    <HeaderData>
+      <MessageId>12345</MessageId>
+      <Timestamp>20250310T120000</Timestamp>
+      <DocumentTitle>
+        <Value>Payslip</Value>
+      </DocumentTitle>
+      <PayDate>20250310</PayDate>
+      <NetPayment>
+        <Label>Net Salary</Label>
+        <Value>2500.00</Value>
+      </NetPayment>
+      <Payer>Company Ltd</Payer>
+      <PartyIdentifications>
+        <PartyIdentificationId>
+          <Authority>FI</Authority>
+          <Value>1234567</Value>
+        </PartyIdentificationId>
+      </PartyIdentifications>
+      <DeliveryChannels>
+        <DeliveryChannel>
+          <DeliveryMethodCode>01</DeliveryMethodCode>
+          <DeliveryInfo>
+            <BankCode>001</BankCode>
+          </DeliveryInfo>
+        </DeliveryChannel>
+      </DeliveryChannels>
+    </HeaderData>
+    <Delivery>
+      <Sender>
+        <Name>Company Ltd</Name>
+        <AddressLine>Main Street 1</AddressLine>
+        <PostalCode>00100</PostalCode>
+        <PostOffice>Helsinki</PostOffice>
+      </Sender>
+      <Recipient>
+        <RecipientName>
+          <ForeName>John</ForeName>
+          <SurName>Doe</SurName>
+        </RecipientName>
+        <AddressLine>Street 5</AddressLine>
+        <PostalCode>00150</PostalCode>
+        <PostOffice>Helsinki</PostOffice>
+      </Recipient>
+    </Delivery>
+    <Employee>
+      <Identity>
+        <EmployeeIdentity>
+          <PersonID>010199A123X</PersonID>
+        </EmployeeIdentity>
+      </Identity>
+      <EmployeeName>
+        <ForeName>John</ForeName>
+        <SurName>Doe</SurName>
+      </EmployeeName>
+    </Employee>
+  </Payslip>
+</Payslips>
