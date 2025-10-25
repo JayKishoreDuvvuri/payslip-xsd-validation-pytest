@@ -8,7 +8,7 @@ The tests ensure:
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
 ```
 payslip-xsd-validation/
 ├── ...
