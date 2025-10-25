@@ -1,4 +1,4 @@
-# 🧾 Payslip XML 2.0 Schema Validation (Pytest)
+## 🧾 Payslip XML 2.0 Schema Validation (Pytest)
 
 This project validates Finnish **Verkkopalkka "Payslip XML 2.0"** files against the official XML Schema (XSD) using **pytest** and **lxml**.
 
@@ -19,6 +19,7 @@ payslip-xsd-validation/
 │   ├── data/
 │   │   ├── valid/
 │   │   │   └── valid_payslip.xml
+│   │   │   
 │   │   └── invalid/
 │   │       ├── extra_unexpected_tag.xml
 │   │       ├── invalid_currency_code.xml
@@ -87,4 +88,11 @@ Invalid test cases include:
  - Malformed structure
  - Missing required element
  - Wrong date format
+```
+
+### CI Run
+```bash
+https://github.com/JayKishoreDuvvuri/payslip-xsd-validation-pytest/actions
+Run 1: https://github.com/JayKishoreDuvvuri/payslip-xsd-validation-pytest/actions/runs/18805583965/job/53659218845
+Run 2: https://github.com/JayKishoreDuvvuri/payslip-xsd-validation-pytest/actions/runs/18805667385/job/53659411841
 ```
