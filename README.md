@@ -9,8 +9,10 @@ The tests ensure:
 ---
 
 ## 📁 Project Structure
-
+```
 payslip-xsd-validation/
+├── ...
+│
 ├── schemas/
 │   └── payslipxml-2-0.xsd
 ├── tests/
@@ -18,14 +20,19 @@ payslip-xsd-validation/
 │   │   ├── valid/
 │   │   │   └── valid_payslip.xml
 │   │   └── invalid/
-│   │       ├── missing_field.xml
-│   │       ├── wrong_attribute.xml
-│   │       └── malformed_date.xml
+│   │       ├── extra_unexpected_tag.xml
+│   │       ├── invalid_currency_code.xml
+│   │       ├── malformed_structure.xml
+│   │       ├── missing_required_element.xml
+│   │       └── wrong_date_format.xml
+│   │      
 │   └── test_xsd_validation.py
+│   
 ├── pytest.ini
 ├── requirements.txt
+├── ci.yml
 └── README.md
-
+```
 
 ---
 
